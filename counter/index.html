@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Custom useState Counter</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #0f172a;
+        color: white;
+      }
+
+      .counter {
+        background: #020617;
+        padding: 24px 32px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      }
+
+      #counterValue {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+      }
+
+      button {
+        padding: 10px 18px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background: #2563eb;
+        color: white;
+      }
+
+      button:hover {
+        background: #1d4ed8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="counter">
+      <div id="counterValue">0</div>
+
+      <div class="buttons">
+        <button id="decrementBtn">-</button>
+        <button id="incrementBtn">+</button>
+      </div>
+    </div>
+
+    <!-- your JS file -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
