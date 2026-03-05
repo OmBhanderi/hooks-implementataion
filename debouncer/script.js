@@ -27,7 +27,7 @@ function App() {
     if (debouncedValue === "") return;
     console.log("Debounced value:", debouncedValue);
   }, [debouncedValue]);
-  console.log("hello smittttttttttttttttttttttttttttttttttt")
+  console.log("hello ttt")
 
 }
 
