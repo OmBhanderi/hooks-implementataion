@@ -22,6 +22,7 @@ document.addEventListener("click", (e) => {
     counterValue.textContent = `${countRef}`;
   }
 });
+//TRIGGER
 
 function App() {
   const [count, setCount] = useState(0);
